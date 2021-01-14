@@ -19,7 +19,7 @@ function setup(){
     hex1 = new Hex(45,285);
     ground1 = new Ground(885,210,200,15);
     ground2 = new Ground(595,295,200,15);
-    slingshot = new Sling(hex.body,{x:200, y:50});
+    slingshot = new Sling(hex1.body,{x:200, y:50});
 }
 
 function draw(){
